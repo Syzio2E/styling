@@ -22,3 +22,21 @@
   background: #fad0ec;
   border-color: #8b005d;
 }
+
+.Button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+}
+
+.Button.invalid {
+  background-color: lightcoral;
+}
+
+.Button.valid {
+  background-color: red;
+}
